@@ -1,6 +1,6 @@
-LDFLAGS += -lhighgui
+LDFLAGS += -lcv -lhighgui
 
-targets = e2.1 e2.2 e2.3 e2.4
+targets = e2.1 e2.2 e2.3 e2.4 m12.3 tCvMat
 
 .PHONY: clean
 
